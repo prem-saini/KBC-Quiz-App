@@ -1,0 +1,97 @@
+.menu {
+    display: flex;
+    height: 100vh;
+    /* background-color: #020230; */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+    height: auto;
+    background-image: url(../../src/image/backgroundkbc.jpg);
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+
+}
+
+.left h1 {
+    color: white;
+}
+
+.right {
+    width: 25%;
+    height: auto;
+    background-color: #020230;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.menu_listNumber {
+    list-style: none;
+    color: white;
+}
+
+.moneylist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.moneylist .active {
+    background-color: teal;
+}
+
+.moneylist_number {
+    width: 30%;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.moneylist_amount {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.timer {
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10px;
+    /* left: 80px; */
+}
+
+.top {
+    height: 50%;
+    position: relative;
+}
+
+.bottom {
+    color: white;
+    height: 50%;
+}
+
+.endText {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
